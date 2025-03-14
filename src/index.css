@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'CyberFont';
+  src: url('https://fonts.cdnfonts.com/css/cyberpunk-is-not-dead') format('woff2');
+}
+
+/* Ripple Effect */
+.ripple {
+  position: fixed;
+  border-radius: 50%;
+  transform: scale(0);
+  animation: ripple 0.6s linear;
+  background: linear-gradient(45deg, var(--neon-blue), var(--neon-pink));
+  pointer-events: none;
+  z-index: 9999;
+  width: 100px;
+  height: 100px;
+}
+
+@keyframes ripple {
+  to {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+/* Cyberpunk Theme */
+.dark {
+  --neon-blue: #0ff;
+  --neon-pink: #ff36f9;
+  --neon-green: #39ff14;
+}
+
+.dark .cyberpunk-text {
+  text-shadow: 0 0 10px var(--neon-blue),
+               0 0 20px var(--neon-blue),
+               0 0 40px var(--neon-blue);
+  animation: textPulse 2s infinite;
+}
+
+.dark .cyberpunk-border {
+  box-shadow: 0 0 10px var(--neon-pink),
+              0 0 20px var(--neon-pink),
+              inset 0 0 20px var(--neon-pink);
+  border-color: var(--neon-pink);
+}
+
+.dark .cyberpunk-glow {
+  filter: drop-shadow(0 0 10px var(--neon-green));
+}
+
+/* Pixel Art Mode */
+.pixelated {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+  transform: scale(1.01); /* Prevent blurry edges */
+  filter: contrast(1.2) brightness(1.1) saturate(1.2);
+}
+
+.dark .pixelated {
+  filter: contrast(1.4) brightness(1.2) saturate(1.4) 
+         drop-shadow(0 0 10px var(--neon-blue));
+}
+
+@keyframes textPulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.8; }
+}
+
+@keyframes borderFlicker {
+  0%, 100% { border-color: var(--neon-pink); }
+  50% { border-color: transparent; }
+}
+
+@keyframes glitch {
+  0% { transform: translate(0); }
+  20% { transform: translate(-2px, 2px); }
+  40% { transform: translate(-2px, -2px); }
+  60% { transform: translate(2px, 2px); }
+  80% { transform: translate(2px, -2px); }
+  100% { transform: translate(0); }
+}
+
+/* Particle Effect */
+.particle {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: var(--neon-blue);
+  border-radius: 50%;
+  animation: float 3s infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) translateX(0); }
+  50% { transform: translateY(-10px) translateX(5px); }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #1a1a1a;
+  border: 1px solid var(--neon-blue);
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, var(--neon-pink), var(--neon-blue));
+  border: 1px solid var(--neon-green);
+  border-radius: 5px;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, var(--neon-blue), var(--neon-pink));
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--neon-blue) #1a1a1a;
+}
+
+.dark * {
+  scrollbar-color: var(--neon-pink) #1a1a1a;
+}
