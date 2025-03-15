@@ -6,7 +6,7 @@ Welcome to the official **GDG GLAU Team Page**! This page showcases the amazing 
 [![Live Preview](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen)](https://gdgglau.co/team)
 
 ## 📸 Preview  
-![GDG GLAU Team](https://gdgglau.co/path-to-screenshot.jpg)  
+![GDG GLAU Team](https://blogger.googleusercontent.com/img/a/AVvXsEi-qyvioViMRPpwhVrnFRd4TrK2BF7rIhHfiRXaTjvjuVeY32NSEAsFtVutgno9LBUM_D37bVOUuIVBuieVboXCmdllu8wo8Xrs85ol6t0Aykd9-0KgSMeXBZS5FZnPv1CTXEj0gHWiuqbMM4-0qfmog_33U9bMG1M3M_Vx0fB8FpMOFf8bS-vVyo6su1Jv)  
 
 
 [See Full Team](https://gdgglau.co/team)  
