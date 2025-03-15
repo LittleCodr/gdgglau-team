@@ -18,7 +18,7 @@ Welcome to the official **GDG GLAU Team Page**! This page showcases the amazing 
 git clone https://github.com/yourusername/gdgglau-team.git
 
 # Navigate to the project
-cd gdg-glau-team
+cd gdgglau-team
 
 # Install dependencies
 npm install
@@ -27,7 +27,7 @@ npm install
 npm run dev
 
 ```
-## 📊 Tech Stack
+## 📊 Tech Stack ##
 
 **TypeScript (87.2%)**
 
@@ -37,7 +37,7 @@ npm run dev
 
 **HTML (1.2%)**
 
-##🤝 Contributing
+##🤝 Contributing##
 
 We welcome contributions! If you want to contribute, you can do so.
 
