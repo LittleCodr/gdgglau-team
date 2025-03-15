@@ -27,22 +27,17 @@ npm install
 npm run dev
 
 ```
-## 📊 Tech Stack ##
+## 📊 Tech Stack
 
 **TypeScript (87.2%)**
-
 **CSS (5.8%)**
-
 **JavaScript (5.8%)**
-
 **HTML (1.2%)**
 
-##🤝 Contributing##
-
+##🤝 Contributing
 We welcome contributions! If you want to contribute, you can do so.
 
 ##📜 License
-
 This project is open-source under the MIT License.
 
 💙 Developed with passion by GDG GLAU Team
