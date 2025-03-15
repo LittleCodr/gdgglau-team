@@ -15,7 +15,7 @@ Welcome to the official **GDG GLAU Team Page**! This page showcases the amazing 
 
 ```sh
 # Clone the repository
-git clone https://github.com/yourusername/gdg-glau-team.git
+git clone https://github.com/yourusername/gdgglau-team.git
 
 # Navigate to the project
 cd gdg-glau-team
@@ -27,21 +27,21 @@ npm install
 npm run dev
 
 ```
-📊 Tech Stack
+## 📊 Tech Stack
 
-TypeScript (87.2%)
+**TypeScript (87.2%)**
 
-CSS (5.8%)
+**CSS (5.8%)**
 
-JavaScript (5.8%)
+**JavaScript (5.8%)**
 
-HTML (1.2%)
+**HTML (1.2%)**
 
-🤝 Contributing
+##🤝 Contributing
 
 We welcome contributions! If you want to contribute, you can do so.
 
-📜 License
+##📜 License
 
 This project is open-source under the MIT License.
 
