@@ -15,7 +15,7 @@ Welcome to the official **GDG GLAU Team Page**! This page showcases the amazing 
 
 ```sh
 # Clone the repository
-git clone https://github.com/yourusername/gdgglau-team.git
+git clone https://github.com/LittleCodr/gdgglau-team.git
 
 # Navigate to the project
 cd gdgglau-team
